@@ -1,0 +1,22 @@
+{
+  "name": "project-battleship",
+  "version": "1.0.0",
+  "description": "The Odin Project battleship project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Estercade/Project-Battleship.git"
+  },
+  "author": "Estercade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Estercade/Project-Battleship/issues"
+  },
+  "homepage": "https://github.com/Estercade/Project-Battleship#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
