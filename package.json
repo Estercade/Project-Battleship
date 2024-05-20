@@ -1,10 +1,11 @@
 {
   "name": "project-battleship",
   "version": "1.0.0",
+  "type": "module",
   "description": "The Odin Project battleship project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/Estercade/Project-Battleship#readme",
   "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "babel-jest": "^29.7.0",
     "jest": "^29.7.0"
   }
 }
