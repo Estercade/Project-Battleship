@@ -14,5 +14,5 @@ describe('Ship is created', () => {
   newShip.isSunk();
   test('Tests whether a ship properly sinks', () => {
     expect(newShip.sunk).toBe(true)
-  })
+  });
 })

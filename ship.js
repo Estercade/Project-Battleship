@@ -1,17 +1,17 @@
 export const Ship = function(num) {
   let length = num;
-  let hits = 0;
+  let damage = 0;
   let sunk = false;
 
   function hit() {
-    hits++;
+    damage++;
   }
 
   function isSunk() {
-    if (hits >= length) {
+    if (damage >= length) {
       sunk = true;
     }
   }
 
-  return { get length() { return length }, get hits() { return hits }, get sunk() { return sunk }, hit, isSunk }
+  return { get length() { return length }, get damage() { return damage }, get sunk() { return sunk }, hit, isSunk }
 }
